@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Digital Portfolio</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#languages">Programming Languages</a> |
+            <a href="#websites">Favorite Websites</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="profile.jpg" alt="Prince Rupert T. Martinez" class="profile-pic">
+
+            <h1>Prince Rupert T. Martinez</h1>
+
+            <p class="subtitle">Bachelor of Science in Information Technology</p>
+
+            <div class="contact-info">
+                <p>FAITH Colleges, Tanauan, Batangas</p>
+                <p>Email: princerupertm@gmail.com</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- About -->
+        <section id="about" class="card">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am Prince Rupert T. Martinez, a Bachelor of Science in
+                Information Technology student at FAITH Colleges. I enjoy learning
+                about computers, programming, and web development. My goal is to
+                become a skilled IT professional and continuously improve my
+                technical and problem-solving skills. I have basic knowledge of
+                HTML and I am eager to learn more programming languages and
+                technologies.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="card">
+            <h2>Educational Background</h2>
+
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>School</th>
+                    <th>Year</th>
+                </tr>
+
+                <tr>
+                    <td>Elementary</td>
+                    <td>Sta. Anastacia Elementary School</td>
+                    <td>2018</td>
+                </tr>
+
+                <tr>
+                    <td>Junior High School</td>
+                    <td>Sta. Anastacia National High School</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr>
+                    <td>Senior High School</td>
+                    <td>Lilyrose Foundation Inc.</td>
+                    <td>2024</td>
+                </tr>
+
+                <tr>
+                    <td>College</td>
+                    <td>FAITH Colleges</td>
+                    <td>Present</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="card">
+            <h2>Skills</h2>
+
+            <div class="skills-container">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">Microsoft Word</span>
+                <span class="skill-tag">Communication</span>
+                <span class="skill-tag">Teamwork</span>
+                <span class="skill-tag">Problem Solving</span>
+                <span class="skill-tag">Time Management</span>
+            </div>
+        </section>
+
+        <!-- Programming Languages -->
+        <section id="languages" class="card">
+            <h2>Programming Languages to Learn</h2>
+
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+            </ol>
+        </section>
+
+        <!-- Favorite Websites -->
+        <section id="websites" class="card">
+            <h2>Favorite Websites</h2>
+
+            <ul>
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                <li><a href="https://github.com/s2024100677-cpu" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="card">
+            <h2>Contact Me</h2>
+
+            <form>
+                <label for="fullname">Full Name</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Bonus: YouTube -->
+        <section class="card">
+            <h2>Favorite Programming Video</h2>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/qz0aGYrrlhU"
+                title="Programming Video"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- Bonus: Google Maps -->
+        <section class="card">
+            <h2>School Location</h2>
+
+            <iframe
+                src="https://www.google.com/maps?q=FAITH+Colleges+Tanauan+Batangas&output=embed"
+                width="600"
+                height="400"
+                style="border:0;"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Prince Rupert T. Martinez</p>
+        <p>BS Information Technology</p>
+    </footer>
+
+</body>
+</html>
